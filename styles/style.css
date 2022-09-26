@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Outfit";
+  min-height: calc(100vh - 0.1px);
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  margin: 1em;
+  padding: 1em;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1em;
+}
+
+section {
+  max-width: 375px;
+}
+
+section:first-of-type img {
+  border-radius: 1em;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+section:last-of-type {
+  width: 100%;
+}
+section:last-of-type h1 {
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+section:last-of-type p {
+  font-size: 1em;
+  color: hsl(220deg, 15%, 55%);
+  margin-bottom: 1.5em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    padding: 1.625em;
+  }
+  section:last-of-type h1 {
+    margin-top: 0.5em;
+    font-size: 2em;
+  }
+  section:last-of-type p {
+    font-size: 1.5em;
+    margin-bottom: 0.625em;
+  }
+}/*# sourceMappingURL=style.css.map */
